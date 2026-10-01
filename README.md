@@ -1,40 +1,41 @@
-# Typing Master Website
+<!-- readme-seo: bannysukumar -->
 
-Simple React website for the Typing Master typing speed test app. Includes Home, About, Privacy Policy, and Contact pages.
+# Typing Master App Website
 
-## Run locally
+**Typing Master App Website** is an open-source typing-practice application. The code is written mainly in JavaScript and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
 
-```bash
-cd website
-npm install
-npm run dev
-```
+This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
 
-Open [http://localhost:5173](http://localhost:5173).
+## About this project
 
-## Build
+Typing Master App Website lives at [`github.com/Bannysukumar/Typing-Master-app-website`](https://github.com/Bannysukumar/Typing-Master-app-website). Use it as a starting point for a typing-practice application, or study how the JavaScript parts fit together.
 
-```bash
-npm run build
-```
+## Tech stack
 
-Output is in `dist/`.
+- Primary language: **JavaScript**
+- License: **MIT**
+- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
 
-## Deploy to Vercel
-
-1. Push this repo to GitHub (or connect your Git provider in Vercel).
-2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click **Add New** → **Project** and import your repository.
-4. Set **Root Directory** to `website`.
-5. Vercel will detect Vite; keep **Build Command**: `npm run build` and **Output Directory**: `dist`.
-6. Click **Deploy**.
-
-Or use the Vercel CLI from the `website` folder:
+## Getting started
 
 ```bash
-cd website
-npm i -g vercel
-vercel
+git clone https://github.com/Bannysukumar/Typing-Master-app-website.git
+cd Typing-Master-app-website
 ```
 
-Follow the prompts and deploy. The `vercel.json` in this folder configures client-side routing so all routes (e.g. `/privacy`, `/contact`) work correctly on Vercel.
+Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
+
+## Contributing
+
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+
+## Author
+
+- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
+- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
+- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
+- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
