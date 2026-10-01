@@ -1,41 +1,77 @@
-<!-- readme-seo: bannysukumar -->
+# Typing Master - Typing Speed Test
 
-# Typing Master App Website
+Typing Master - Improve your typing speed with our typing speed test app.
 
-**Typing Master App Website** is an open-source typing-practice application. The code is written mainly in JavaScript and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
+[![License](https://img.shields.io/github/license/Bannysukumar/Typing-Master-app-website)](https://github.com/Bannysukumar/Typing-Master-app-website/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/Typing-Master-app-website)](https://github.com/Bannysukumar/Typing-Master-app-website/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/Typing-Master-app-website)](https://github.com/Bannysukumar/Typing-Master-app-website/commits/main)
 
-This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
+## Overview
 
-## About this project
+Typing Master - Improve your typing speed with our typing speed test app.
 
-Typing Master App Website lives at [`github.com/Bannysukumar/Typing-Master-app-website`](https://github.com/Bannysukumar/Typing-Master-app-website). Use it as a starting point for a typing-practice application, or study how the JavaScript parts fit together.
 
-## Tech stack
+What is actually in the repository: `public/`, `src/`. GitHub reports the primary language as JavaScript.
 
-- Primary language: **JavaScript**
-- License: **MIT**
-- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
+Published site recorded on the repository: https://typing-master-taupe.vercel.app
 
-## Getting started
+## Features
+
+
+- About
+- Contact
+- Home
+- Privacy Policy
+
+## Tech Stack
+
+| Technology | Where it shows up |
+|---|---|
+| React | User interface |
+| Vite | Frontend build tool |
+
+## Project Structure
+
+```text
+Typing-Master-app-website/
+├── public/
+├── src/
+├── index.html
+├── package-lock.json
+├── package.json
+├── vercel.json
+├── vite.config.js
+```
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Bannysukumar/Typing-Master-app-website.git
 cd Typing-Master-app-website
+npm install
+npm run dev
 ```
 
-Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
+Scripts defined in package.json:
+
+- `npm run dev` — `vite`
+- `npm run build` — `vite build`
+
+## Deployment
+
+- vercel.json is in the repository root.
+- The repository homepage is https://typing-master-taupe.vercel.app.
 
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
+
+[Banny Sukumar](https://github.com/Bannysukumar)
 
 - GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
 - Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
 - LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
-- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
